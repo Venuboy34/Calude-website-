@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Claude Web Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Claude Chat (via Puter.js)</h1>
+  <div id="chat-box"></div>
+  <div class="input-area">
+    <input type="text" id="prompt" placeholder="Ask Claude something...">
+    <select id="model">
+      <option value="claude-opus-4">Opus 4</option>
+      <option value="claude-sonnet-4">Sonnet 4</option>
+    </select>
+    <button onclick="sendPrompt()">Send</button>
+  </div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
